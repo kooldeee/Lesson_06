@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SF Pixelate Shaded';
+    src: url('SFPixelateShaded.woff2') format('woff2'),
+        url('SFPixelateShaded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pixelate Shaded';
+    src: url('SFPixelateShaded.woff2') format('woff2'),
+        url('SFPixelateShaded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hardpixel';
+    src: url('Hardpixel.woff2') format('woff2'),
+        url('Hardpixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hardpixel';
+    src: url('Hardpixel.woff2') format('woff2'),
+        url('Hardpixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

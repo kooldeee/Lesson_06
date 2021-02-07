@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Pixel Cyr';
+    src: url('PixelCyr-Normal.woff2') format('woff2'),
+        url('PixelCyr-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chava';
+    src: url('Chava-Regular.woff2') format('woff2'),
+        url('Chava-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chava';
+    src: url('Chava-Regular.woff2') format('woff2'),
+        url('Chava-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

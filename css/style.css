@@ -1,0 +1,400 @@
+/* Подключение шрифтов из гугл фонтс */
+
+@font-face {
+	font-family: "Hardpixel";
+	src: url("../fonts/Hardpixel.woff2") format("woff2"), url("../fonts/Hardpixel.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hardpixel";
+	src: url("../fonts/Hardpixel.woff2") format("woff2"), url("../fonts/Hardpixel.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляем стили */
+/* Обращаемся ко всему с помощью "*" */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* Эта новая штука, разберись  с ней */
+	box-sizing: border-box;
+}
+/* ТОчки стиля списков */
+li {
+	list-style: none;
+}
+/* Ссылки */
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/* Заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+/* Фантомный отступ у картинок */
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 100%;
+	color: #000;
+	padding: 0px;
+	font-family: Montserrat;
+}
+
+/* LESSON_06_HW */
+/*  
+
+
+h1 {
+	max-width: 600px;
+	display: inline-block;
+	font-family: "Pixelmax-Normal";
+	background-color: #fff;
+	margin: 0px auto;
+	padding: 20px;
+	border: 5px dashed red;
+}
+h2 {
+	background-color: rgb(230, 255, 0);
+	padding: 10px;
+	margin: 10px;
+}
+
+a.min {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	outline: 1px solid black;
+}
+.header {
+	background-color: rgb(0, 255, 128);
+	max-width: 800px;
+	margin: 0px auto;
+	padding: 50px;
+}
+.header img {
+	max-width: 120px;
+	background-color: yellow;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 5%;
+	outline: 5px dasheddotted rgb(255, 0, 0);
+	box-shadow: 0px 0px 15px 2px black;
+	opacity: 80%;
+}
+
+.block {
+	max-width: 800px;
+	margin: 0px auto;
+	padding: 20px;
+}
+.block.head {
+	background-color: red;
+}
+.space {
+	background-color: grey;
+	padding: 50px;
+}
+.block.links {
+	background-color: rgb(0, 174, 255);
+	max-width: 1000px;
+	margin: 50px;
+	padding: 50px;
+}
+
+nav {
+	background-color: yellow;
+} */
+.header img {
+	max-width: 120px;
+	background-color: yellow;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 5%;
+	outline: 5px dasheddotted rgb(255, 0, 0);
+	box-shadow: 0px 0px 15px 2px black;
+	opacity: 80%;
+}
+.apple img {
+	max-width: 160px;
+	padding: 5px;
+	margin: 15px;
+	opacity: 90%;
+}
+/* ПОЧЕМУ НЕ СРАБОТАЛ drop-shadow НА .png ?*/
+.png {
+	filter: drop-shadow(30px 10px 4px #47000f);
+}
+.appleimage {
+	border: 5px dashed red;
+	outline: 10px dotted rgb(89, 0, 255);
+	box-shadow: inset 0px 0px 10px 2px black;
+}
+
+.space img {
+	max-width: 200px;
+
+	padding: 5px;
+	margin: 15px;
+	box-shadow: 0px 0px 15px 2px rgb(89, 0, 255);
+	opacity: 100%;
+}
+.float__image {
+	width: 300px;
+	margin: 10px;
+	float: right;
+}
+.itemm {
+	clear: both;
+}
+.conteuner {
+	max-width: 1000px;
+	background-color: rgb(255, 0, 85);
+	margin: 0px auto;
+	padding: 50px;
+}
+.header {
+	background-color: #fff;
+	padding: 50px;
+	margin-top: 10px;
+}
+h1 {
+	display: block;
+	text-align: center;
+	max-width: 800px;
+	margin: 0px auto;
+	font-family: Hardpixel;
+	background-color: rgb(0, 195, 255);
+	border: 5px dashed black;
+	padding: 20px 10px;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: Hardpixel;
+	text-shadow: 2px 0px 0px red, 4px 0px 0px orangered, 2px 0px 0px orange;
+	background-color: rgb(255, 250, 0);
+	text-transform: uppercase;
+	padding: 5px;
+}
+.main {
+	background-color: green;
+}
+.block {
+	max-width: 900px;
+	margin: 0px auto;
+}
+
+.max {
+	font-family: Hardpixel;
+	font-size: 40px;
+}
+.min {
+	font-family: Hardpixel;
+	font-size: 20px;
+}
+.item {
+	background-color: orange;
+	border: 10px double red;
+	padding: 50px;
+	margin-top: 10px;
+}
+nav a.min {
+	text-align: center;
+	background-color: red;
+	padding: 10px 20px;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 5px 5px turquoise;
+	margin: 5px;
+}
+.center {
+	max-width: 620px;
+	margin: 0px auto;
+}
+.comp {
+	background-color: blue;
+	border: 5px solid yellow;
+	padding: 50px;
+	margin-top: 10px;
+}
+
+.links {
+	background-color: red;
+	padding: 50px;
+	margin-top: 10px;
+}
+.button {
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: white;
+	background-color: grey;
+	border-top: 5px solid green;
+	border-right: 5px solid red;
+	border-bottom: 5px solid yellow;
+	border-left: 5px solid blue;
+	box-shadow: 5px 5px 5px black;
+	padding: 10px 10px;
+	margin: 10px 20px 10px 0px;
+}
+.space {
+	background-color: grey;
+	padding: 50px;
+	margin-top: 10px;
+}
+.spmn {
+	overflow: hidden;
+	border: 10px double black;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -150px 0px 0px 600px;
+}
+.spmnin {
+	overflow: auto;
+	width: 200px;
+	height: 200px;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+p {
+	width: 580px;
+	margin: 50px 0px 0px 0px;
+}
+.p {
+	min-width: 800px;
+}
+.teeth {
+	background-color: rgb(0, 255, 234);
+	padding: 50px;
+	margin-top: 10px;
+}
+.teethtop {
+	background-color: rgb(0, 255, 21);
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.teethmiddle {
+	background-color: rgb(0, 255, 21);
+	padding: 5px;
+	margin-top: 10px;
+}
+.teethbottom {
+	background-color: rgb(0, 255, 21);
+	padding: 5px;
+	margin-top: 10px;
+}
+.hidden {
+	background-color: pink;
+	padding: 50px;
+	margin-top: 10px;
+}
+.visability {
+	background-color: black;
+	width: 800px;
+	height: 100px;
+	margin-top: 10px;
+	visibility: hidden;
+}
+.display {
+	background-color: blue;
+	width: 800px;
+	height: 100px;
+	margin-top: 10px;
+	display: none;
+}
+.opacity {
+	background-color: red;
+	width: 800px;
+	height: 100px;
+	margin-top: 10px;
+	opacity: 0;
+}
+.apple {
+	background-color: lightgreen;
+	padding: 50px;
+	margin-top: 10px;
+}
+
+.footer {
+	background-color: #fff;
+	padding: 50px;
+	margin-top: 10px;
+}
+.app {
+	background-color: #fff;
+	margin: 20px 0px;
+	max-height: 25px;
+	overflow: auto;
+	min-width: 800px;
+}
+.fimage {
+	display: block;
+	background-color: black;
+	border-radius: 25%;
+	padding: 10px;
+	margin: -280px 0px 0px auto;
+}
+.mid {
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	padding: 5px;
+	background-color: #fff;
+}
+.teethtop {
+	vertical-align: top;
+}
+.teethmiddle {
+	vertical-align: middle;
+}
+.teethbottom {
+	vertical-align: bottom;
+}
+.float {
+	max-width: 800px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 50px;
+	margin: 10px auto;
+}
+.footer a {
+	display: block;
+	max-width: 200px;
+	margin: 20px;
+}
+.ap {
+	text-align: center;
+	color: white;
+	text-shadow: 5px 0px seagreen, 10px 0px rgb(187, 255, 0), 15px 0px lightseagreen;
+	margin-bottom: -30px;
+}
+h3 {
+	margin-top: 50px;
+}
+h4 {
+	display: inline-block;
+}
